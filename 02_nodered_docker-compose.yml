@@ -1,0 +1,66 @@
+version: "3.6"
+
+
+services:
+
+    ab-mqtt:
+        image: eclipse-mosquitto:2.0.14
+        container_name: ab-mqtt
+        restart: always
+        networks:
+            u03:
+                ipv4_address: 172.99.0.201
+        ports:
+            - 8883:8883
+        volumes: 
+            - ab-mqtt-data:/mosquitto/data
+            - ./mqtt:/mosquitto/config/
+            - ./logs:/mosquitto/log
+
+    ab-logger:
+        image: u03/ablogger:latest
+        build: 
+            context: .
+            dockerfile: ablogger-docker/Dockerfile
+        container_name: ab-logger
+        env_file: alertbox.env
+        networks:
+            u03:
+                ipv4_address: 172.99.0.202
+        restart: always
+        volumes:
+            - ab-logs:/alertbox
+
+    ab-nodered:
+        image: nodered/node-red:2.2.2
+        container_name: ab-nodered
+        networks:
+            u03:
+                ipv4_address: 172.99.0.203
+        ports:
+            - 1880:1880
+        restart: always
+        volumes:
+            - ab-nodered:/data
+
+
+networks:
+    u03:
+        name: u03
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.99.0.0/24
+
+
+volumes:
+
+    ab-mqtt-data:
+        name: ab-mqtt-data
+        external: true
+    ab-logs:
+        name: ab-logs
+        external: true
+    ab-nodered:
+        name: ab-nodered
+        external: true

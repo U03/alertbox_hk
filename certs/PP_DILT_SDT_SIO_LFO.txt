@@ -1,0 +1,71 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 5 (0x5)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = FR, ST = FRANCE, L = PARIS, O = YURIKAMOME, CN = takeshiba.u03.fr, emailAddress = takeshiba@u03.fr
+        Validity
+            Not Before: Apr 10 18:36:34 2022 GMT
+            Not After : Apr 10 18:36:34 2023 GMT
+        Subject: CN = PP_DILT_SDT_SIO_LFO
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:df:97:7e:57:b2:09:6e:4e:ab:c3:ee:27:78:00:
+                    f8:be:fb:2f:c5:24:bb:09:d3:af:1e:28:42:98:3b:
+                    29:9c:c2:ba:c2:75:4f:20:2e:5e:16:e9:c4:ba:53:
+                    fb:95:59:0f:c1:6e:a3:78:dd:22:39:c5:68:15:7e:
+                    a8:ee:f0:2b:6c:4d:2e:02:0a:5b:e4:c8:89:0d:97:
+                    02:bc:89:13:3c:24:47:9a:6a:56:f9:c3:a6:5c:e8:
+                    66:65:dd:1b:ed:43:fb:2a:00:06:45:63:ff:88:54:
+                    b6:9d:02:00:f4:d8:85:64:f8:05:ca:c1:72:ee:a7:
+                    7f:08:13:26:0f:7d:74:89:a3:0e:ca:d9:30:03:c5:
+                    cf:22:5e:fb:c1:17:6c:3b:32:29:ed:db:3f:f3:0a:
+                    11:d1:fa:af:b2:41:23:dd:08:29:48:0d:e3:cb:06:
+                    3b:1d:df:5b:07:d4:4c:c7:2e:86:ec:4d:03:ef:02:
+                    ff:55:49:11:22:64:d9:ab:21:91:f7:c4:b3:29:5b:
+                    17:34:76:bc:95:49:4c:df:9b:7b:64:c0:60:27:79:
+                    af:24:21:7a:83:c1:6d:af:b3:76:73:68:6d:c4:40:
+                    73:9b:cf:ed:2f:f9:ae:cb:c0:27:54:a4:5c:dd:f5:
+                    58:49:5b:3e:f9:dc:d1:bf:20:0a:e4:a2:98:ab:70:
+                    dd:9d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Client, S/MIME, Object Signing
+            Netscape Comment: 
+                TinyCA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                9C:B7:90:76:83:F2:81:B1:72:42:9E:FE:A5:77:47:36:30:A7:4E:F9
+            X509v3 Authority Key Identifier: 
+                keyid:5A:1D:1E:35:ED:53:BD:19:F3:1B:CF:D6:1B:A6:3F:73:CA:7A:40:35
+                DirName:/C=FR/ST=FRANCE/L=PARIS/O=YURIKAMOME/CN=takeshiba.u03.fr/emailAddress=takeshiba@u03.fr
+                serial:6E:86:EF:B5:11:A8:71:7E:A9:E6:37:48:BB:89:19:6F:43:7F:8E:B1
+
+            X509v3 Issuer Alternative Name: 
+                <EMPTY>
+
+            X509v3 Subject Alternative Name: 
+                <EMPTY>
+
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+    Signature Algorithm: sha256WithRSAEncryption
+         b9:54:cb:82:1d:79:f8:cf:87:ab:6c:79:a4:a9:3d:4b:a5:09:
+         c9:f1:27:3c:c5:31:40:61:d8:0a:8a:5a:a5:fe:93:eb:3e:0d:
+         49:34:ad:d5:42:c2:71:c6:85:d9:9c:b3:12:05:9d:b2:a0:8e:
+         33:6b:1e:b7:14:38:16:95:4b:09:fe:aa:ed:ad:af:03:67:6f:
+         3a:56:72:0c:c7:9a:eb:41:48:93:76:7a:0a:d0:e0:56:a1:34:
+         97:97:e8:76:2b:4d:61:d5:cd:9b:cc:fa:20:48:09:66:70:30:
+         46:fe:c4:09:28:e0:c6:1f:f5:09:43:3e:58:52:1e:7f:8a:18:
+         e3:b5:02:9a:58:49:da:ad:59:02:74:c0:f1:e0:b7:66:bf:19:
+         c9:52:01:c0:46:64:ac:fc:16:b0:ed:6f:7b:3c:1e:35:40:bc:
+         b3:67:45:14:44:83:b4:02:3d:19:bd:d6:c4:30:7f:d0:71:10:
+         6f:02:1b:7b:93:33:e9:c1:e0:39:8a:82:2e:ab:50:5e:58:14:
+         19:c9:01:41:ce:05:29:4f:0b:4f:56:3c:6a:a3:05:4f:1d:80:
+         fb:82:49:53:2c:85:6d:be:53:8c:95:d2:dc:1d:3b:bf:00:73:
+         e7:bc:7d:8b:8c:df:47:b2:04:e9:02:86:75:d7:ab:09:6a:68:
+         27:87:ed:2b

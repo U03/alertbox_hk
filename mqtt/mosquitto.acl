@@ -1,0 +1,23 @@
+
+
+pattern  write  alert/%u/ping
+pattern  read   alert/%u/pong
+pattern  write  alert/%u/acq/#
+pattern  read   alert/%u/push/#
+pattern  write  alert/%u/button/#
+pattern  write  alert/%u/err
+
+user            nodered.alert.u03.fr
+topic read      alert/+/ping
+topic write     alert/+/pong
+topic read      alert/+/acq/#
+topic write     alert/+/push/#
+topic read      alert/+/button/#
+topic read      sondes/#
+
+user            administrateur.alert.u03.fr
+topic readwrite #
+
+user            ab_logger.alert.u03.fr
+topic read      #
+
